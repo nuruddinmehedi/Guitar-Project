@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("WNWX7N.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.drum{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding: 100px
+}
+.mainsection{
+   width: 100%;
+   position:absolute;
+   top: 70%;
+   left: 100px;
+    
+}
+.play{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+  border: 2px solid yellow !important;
+}
+.mainsection div{
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid black;
+    color: white;
+    margin-right: 10px;
+    transition: transform .2s
+}
+
